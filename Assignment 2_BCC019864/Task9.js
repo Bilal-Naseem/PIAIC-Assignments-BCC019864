@@ -1,6 +1,7 @@
 var ch = prompt("Enter a Character : ", '');
 if(ch.length == 1)
 {
+    ch = ch.toLowerCase();
     if(ch == 'a' || ch == 'e' ||ch == 'i' ||ch == 'o' ||ch == 'u')
         alert("Input Charater is a vowel");
     else
